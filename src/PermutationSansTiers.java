@@ -5,10 +5,12 @@ public class PermutationSansTiers {
 
   @Test
   public void test() {
-    byte a = 99;
-    byte b = 101;
+    int a = 99;
+    int b = 101;
 
-    // Votre essai ici
+    a=a+b;
+    b=a-b;
+    a=a-b;
 
     assertEquals(101, a);
     assertEquals(99, b);
